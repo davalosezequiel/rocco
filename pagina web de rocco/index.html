@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<title>Curriculum Vitae</title>
+	<link rel="stylesheet" type="text/css" href="proyecto.css">
+</head>
+<body>
+	<!--menu encabezado-->
+	<div class="contenedor-header">
+		<header>
+			<div class="logo">
+				<a href="#">¡HOLA! SOY ROCCO</a>
+			</div>
+			<nav id="nav">
+				<ul>
+					<li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+					<li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+				</ul>
+			</nav>
+			<div class="nav-responsive" onclick="mostrarOcultarMenu()">
+				<i class="fa-solid fa-bars"></i>
+			</div>
+		</header>
+	</div>
+<!--seccion de inicio-->
+<section id="inicio" class="inicio">
+	<div class="contenido-banner">
+		<div class="contenedor.img">
+			<img src="imagen1.jpg" alt="IMAGEN NO CARGADA">
+		</div>
+		<h1>Mi nombre es Rocco</h1>
+		<h2>Perrito sin maldad</h2>
+		<div class="redes">
+			<a href="#"><i class="fa-brands fa-facebook"></i></a>
+			<a href="#"><i class="fa-brands fa-twitter"></i></a>
+			<a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+		</div>
+	</div>
+</section>
+<!-- seccion sobre mi-->
+<section id="sobremi" class="sobremi">
+	<div class="contenido-seccion">
+		<h2>Sobre mi</h2>
+		<p><span>Hola, Soy Rocco</span> Hermoso can color negro ,con presencia imponente, gran guardián y super fiel ,cuidador super inteligente
+		<div class="fila">
+			<!--datos personales-->
+			<div class="col">
+				<h3>datos personales</h3>
+				<ul>
+                    <li>Raza</li>
+                    Perrito de departamento
+					<li>
+						<strong>Cumpleaños</strong>
+						15-11-2020
+					</li>
+					<li>
+						<strong>Telefono</strong>
+						3512507809
+					</li>
+					<li>
+						<strong>email</strong>
+						rocco2.0@hotmail.com
+					</li>
+					<li>
+						<strong>Direccion</strong>
+						Urquiza, cordoba
+					</li>
+					<li>
+						<strong>Cargo</strong>
+						<span>Asesinar todo ser vivo que pase por mi casa</span>
+					</li>
+                    <li>
+                        <strong>Comida favorita</strong>
+                        Vagontea
+                    </li>
+				</ul>
+				</div>
+				
+			<!-- intereses-->
+			<div class="fila">
+			<div class="col">
+				<h3>intereses</h3>
+				<div class="contenedordeintereses">
+					<div class="interes">
+                        <i class="fa-solid fa-drumstick-bite"></i>
+					<span>pollito</span>
+				</div>				
+				<div class="interes">
+					<i class="fas fa-bone"></i>
+					<span>Huesitos</span>
+				</div>				
+					<div class="interes">
+                        <i class="fa-solid fa-shield-dog"></i>
+					<span>Super guardian</span>
+				</div>				
+					<div class="interes">
+                        <i class="fa-solid fa-person-running"></i>
+					<span>Perseguir cualquier sospechoso</span>
+				</div>				
+				
+					<div class="interes">
+					<i class="fa-solid fa-motorcycle"></i>
+					<span>Perseguir motos</span>
+				</div>
+			</div>	
+			</div>
+			</div>
+		</div>
+	
+</section>
+<script src="java.js"></script>
+</body>
